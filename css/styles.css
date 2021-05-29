@@ -1,13 +1,101 @@
 @charset "utf-8";
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #e6e6fa;
+  color: #313131;
+  font-family: sans-serif;
 }
 li {
-    list-style-type: none;
+  list-style-type: none;
 }
-h1, h2, h3 {
-    font-weight: normal;
+h1,
+h2,
+h3 {
+  font-weight: normal;
+}
+img {
+  max-width: 100%;
+}
+
+/* section main */
+.main > img {
+  padding: 10px;
+}
+.main .main-desc {
+  text-align: center;
+  padding: 30px;
+  text-transform: uppercase;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  background: #9470db9a;
+  font-weight: bold;
+  font-family: "Black Han Sans", sans-serif;
+  /* border: 1px solid #000; */
+}
+.main .main-desc h1 {
+  font-size: 2rem;
+}
+.main .main-desc h3 {
+  font-size: 1.5rem;
+}
+/* album */
+.album {
+  font-family: "Black Han Sans", sans-serif;
+}
+.album h1 {
+  text-align: center;
+  font-size: 1.7rem;
+  margin-bottom: 20px;
+}
+.album ul {
+  display: flexbox;
+  text-align: center;
+  padding: 10px;
+}
+.album ul li {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+.album ul li img {
+  border-radius: 30px;
+}
+
+/* letters */
+.letter-style {
+  padding: 15px;
+  margin: 20px;
+  line-height: 40px;
+  font-size: 1.3rem;
+  margin-bottom: 20px;
+  border: 1px solid #4c0082a4;
+  border-radius: 20px;
+  font-family: "Jua", sans-serif;
+  /* font-family: "Nanum Gothic", sans-serif; */
+}
+.letter-text-right {
+  text-align: right;
+}
+.letter-head-padding {
+  padding-bottom: 10px;
+}
+
+/* memories */
+.memories {
+  padding: 10px;
+  text-align: center;
+}
+.memories h2 {
+  font-family: "Black Han Sans", sans-serif;
+}
+.memories .momories-photo {
+  padding: 10px;
+}
+.memories .momories-photo img {
+  padding: 20px 0;
 }
